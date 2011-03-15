@@ -1,0 +1,15 @@
+
+#achievements div:nth-child(0) {
+  float:left;
+  width: 33%;
+}
+
+#achievements div:nth-child(1) {
+  text-align: left;
+  width: 33%;
+}
+
+#achievements div:nth-child(2) {
+  float:right;
+  width: 33%;
+}
