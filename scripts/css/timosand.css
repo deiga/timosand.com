@@ -1,15 +1,31 @@
+@import url('reset.css');
+@import url('debug.css');
 
-#achievements div:nth-child(0) {
+#achievements div:nth-of-type(1) {
+  float:left;
+  width: 33%;
+  padding-left: 10px;
+}
+
+#achievements div:nth-of-type(2) {
   float:left;
   width: 33%;
 }
 
-#achievements div:nth-child(1) {
-  text-align: left;
+#achievements div:nth-of-type(3) {
+  float:left;
   width: 33%;
 }
 
-#achievements div:nth-child(2) {
-  float:right;
-  width: 33%;
+#content {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 3px solid navy;
+}
+
+body {
+  background-color: CornflowerBlue;
 }
