@@ -1,5 +1,5 @@
 @import url('reset.css');
-@import url('debug.css');
+/*@import url('debug.css');*/
 
 #achievements div:nth-of-type(1) {
   float:left;
@@ -23,7 +23,11 @@
 }
 
 header {
-  border-bottom: 3px solid navy;
+  border-bottom: 4px solid navy;
+}
+
+footer {
+  border-top: 4px solid navy;
 }
 
 body {
